@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+  
+   <test name="ChromeTest">
+   <parameter name="browser" value="chrome" />
+   <parameter name="sid" value="bf2e2b84614136443a4432d71e4e038e" />
+      <classes>
+         <class name="seleniumGrid.TestGridClass" />
+      </classes>
+   </test>
+
+   
+</suite>

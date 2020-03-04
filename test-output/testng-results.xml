@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3896" started-at="2020-03-04T07:23:15Z" finished-at="2020-03-04T07:23:19Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="3896" started-at="2020-03-04T07:23:15Z" finished-at="2020-03-04T07:23:19Z">
+      <class name="seleniumGrid.TestGridClass">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String, java.lang.String)[pri:0, instance:seleniumGrid.TestGridClass@1bce4f0a]" name="launchbrowser" is-config="true" duration-ms="540" started-at="2020-03-04T07:23:15Z" finished-at="2020-03-04T07:23:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bf2e2b84614136443a4432d71e4e038e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:seleniumGrid.TestGridClass@1bce4f0a]" name="calculatepercent" duration-ms="3341" started-at="2020-03-04T07:23:15Z" finished-at="2020-03-04T07:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatepercent -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:seleniumGrid.TestGridClass@1bce4f0a]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-03-04T07:23:19Z" finished-at="2020-03-04T07:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- seleniumGrid.TestGridClass -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

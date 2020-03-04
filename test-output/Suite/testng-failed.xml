@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="sid" value="bf2e2b84614136443a4432d71e4e038e"/>
+    <classes>
+      <class name="seleniumGrid.TestGridClass">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="calculatepercent"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- seleniumGrid.TestGridClass -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
